@@ -1,6 +1,6 @@
 {
   "cities": 
-{
+[{
     "Id": 1,
     "ParentId": 0,
     "Initial": "D",
@@ -8,6 +8,15 @@
     "Name": "大连",
     "ListOrder": 1,
     "Grade": 1
-}
+},
+{
+    "Id": 2,
+    "ParentId": 0,
+    "Initial": "N",
+    "Letter": "NC",
+    "Name": "南昌",
+    "ListOrder": 2,
+    "Grade": 1
+}]
 
 }
