@@ -1,5 +1,5 @@
 {
-  "cities": [
+  "cities": 
 {
     "Id": 1,
     "ParentId": 0,
@@ -9,5 +9,5 @@
     "ListOrder": 1,
     "Grade": 1
 }
-]
+
 }
