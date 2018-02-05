@@ -28,12 +28,30 @@
     "Grade": 1
 },
 {
-    "Id": 3,
+    "Id": 4,
     "ParentId": 0,
     "Initial": "B",
     "Letter": "BJ",
     "Name": "北京",
     "ListOrder": 4,
+    "Grade": 1
+},
+{
+    "Id": 5,
+    "ParentId": 0,
+    "Initial": "S",
+    "Letter": "SH",
+    "Name": "上海",
+    "ListOrder": 5,
+    "Grade": 1
+},
+{
+    "Id": 6,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "广州",
+    "ListOrder": 6,
     "Grade": 1
 }]
 
