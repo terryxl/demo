@@ -53,6 +53,51 @@
     "Name": "广州",
     "ListOrder": 6,
     "Grade": 1
+},
+{
+    "Id": 6,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "哈尔滨",
+    "ListOrder": 6,
+    "Grade": 0
+},
+{
+    "Id": 7,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "成都",
+    "ListOrder": 6,
+    "Grade": 0
+},
+{
+    "Id": 8,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "长春",
+    "ListOrder": 6,
+    "Grade": 0
+},
+{
+    "Id": 10,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "沈阳",
+    "ListOrder": 6,
+    "Grade": 0
+},
+{
+    "Id":11,
+    "ParentId": 0,
+    "Initial": "G",
+    "Letter": "GZ",
+    "Name": "济南",
+    "ListOrder": 6,
+    "Grade": 0
 }]
 
 }
