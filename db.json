@@ -3,7 +3,6 @@
 [{
     "Id": 1,
     "ParentId": 0,
-    "Initial": "D",
     "Letter": "DL",
     "Name": "大连",
     "ListOrder": 1,
@@ -12,7 +11,6 @@
 {
     "Id": 2,
     "ParentId": 0,
-    "Initial": "N",
     "Letter": "NC",
     "Name": "南昌",
     "ListOrder": 2,
@@ -21,7 +19,6 @@
 {
     "Id": 3,
     "ParentId": 0,
-    "Initial": "S",
     "Letter": "SY",
     "Name": "沈阳",
     "ListOrder": 3,
@@ -30,7 +27,6 @@
 {
     "Id": 4,
     "ParentId": 0,
-    "Initial": "B",
     "Letter": "BJ",
     "Name": "北京",
     "ListOrder": 4,
@@ -39,7 +35,6 @@
 {
     "Id": 5,
     "ParentId": 0,
-    "Initial": "S",
     "Letter": "SH",
     "Name": "上海",
     "ListOrder": 5,
@@ -48,7 +43,6 @@
 {
     "Id": 6,
     "ParentId": 0,
-    "Initial": "G",
     "Letter": "GZ",
     "Name": "广州",
     "ListOrder": 6,
@@ -57,8 +51,7 @@
 {
     "Id": 6,
     "ParentId": 0,
-    "Initial": "G",
-    "Letter": "GZ",
+    "Letter": "HEB",
     "Name": "哈尔滨",
     "ListOrder": 6,
     "Grade": 0
@@ -66,8 +59,7 @@
 {
     "Id": 7,
     "ParentId": 0,
-    "Initial": "G",
-    "Letter": "GZ",
+    "Letter": "CD",
     "Name": "成都",
     "ListOrder": 6,
     "Grade": 0
@@ -75,8 +67,7 @@
 {
     "Id": 8,
     "ParentId": 0,
-    "Initial": "G",
-    "Letter": "GZ",
+    "Letter": "CC",
     "Name": "长春",
     "ListOrder": 6,
     "Grade": 0
@@ -84,17 +75,15 @@
 {
     "Id": 10,
     "ParentId": 0,
-    "Initial": "G",
-    "Letter": "GZ",
-    "Name": "沈阳",
+    "Letter": "NJ",
+    "Name": "南京",
     "ListOrder": 6,
     "Grade": 0
 },
 {
     "Id":11,
     "ParentId": 0,
-    "Initial": "G",
-    "Letter": "GZ",
+    "Letter": "JN",
     "Name": "济南",
     "ListOrder": 6,
     "Grade": 0
