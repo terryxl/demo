@@ -1,0 +1,151 @@
+{
+    "cities": 
+  [{
+      "Id": 1,
+      "ParentId": 0,
+      "Letter": "DL",
+      "Name": "大连",
+      "ListOrder": 1,
+      "Grade": 1
+  },
+  {
+      "Id": 2,
+      "ParentId": 0,
+      "Letter": "NC",
+      "Name": "南昌",
+      "ListOrder": 2,
+      "Grade": 1
+  },
+  {
+      "Id": 3,
+      "ParentId": 0,
+      "Letter": "SY",
+      "Name": "沈阳",
+      "ListOrder": 3,
+      "Grade": 1
+  },
+  {
+      "Id": 4,
+      "ParentId": 0,
+      "Letter": "BJ",
+      "Name": "北京",
+      "ListOrder": 4,
+      "Grade": 1
+  },
+  {
+      "Id": 5,
+      "ParentId": 0,
+      "Letter": "SH",
+      "Name": "上海",
+      "ListOrder": 5,
+      "Grade": 1
+  },
+  {
+      "Id": 6,
+      "ParentId": 0,
+      "Letter": "GZ",
+      "Name": "广州",
+      "ListOrder": 6,
+      "Grade": 1
+  },
+  {
+      "Id": 6,
+      "ParentId": 0,
+      "Letter": "HEB",
+      "Name": "哈尔滨",
+      "ListOrder": 6,
+      "Grade": 0
+  },
+  {
+      "Id": 7,
+      "ParentId": 0,
+      "Letter": "CD",
+      "Name": "成都",
+      "ListOrder": 6,
+      "Grade": 0
+  },
+  {
+      "Id": 8,
+      "ParentId": 0,
+      "Letter": "CC",
+      "Name": "长春",
+      "ListOrder": 6,
+      "Grade": 0
+  },
+  {
+      "Id": 10,
+      "ParentId": 0,
+      "Letter": "NJ",
+      "Name": "南京",
+      "ListOrder": 6,
+      "Grade": 0
+  },
+  {
+      "Id":11,
+      "ParentId": 0,
+      "Letter": "JN",
+      "Name": "济南",
+      "ListOrder": 6,
+      "Grade": 0
+  }],
+  "Category":[
+      {"Id":1,"ParentId":0, "Name":"音乐声乐","ListOrder":1,"Icon":""},
+      {"Id":2,"ParentId":1, "Name":"钢琴","ListOrder":1,"Icon":"a_gangqin"},
+      {"Id":3,"ParentId":1, "Name":"电子琴","ListOrder":1,"Icon":"a_dianziqin"},
+      {"Id":4,"ParentId":1, "Name":"手风琴","ListOrder":1,"Icon":"a_shoufengqin"},
+      {"Id":5,"ParentId":1, "Name":"萨克斯","ListOrder":1,"Icon":"a_sakesi"},
+      {"Id":6,"ParentId":1, "Name":"小提琴","ListOrder":1,"Icon":"a_xiaotiqin"},
+      {"Id":7,"ParentId":1, "Name":"吉他","ListOrder":1,"Icon":"a_jita"},
+      {"Id":8,"ParentId":1, "Name":"架子鼓","ListOrder":1,"Icon":"a_jiazigu"},
+      {"Id":9,"ParentId":1, "Name":"唢呐","ListOrder":1,"Icon":"a_suona"},
+      {"Id":10,"ParentId":1, "Name":"琵琶","ListOrder":1,"Icon":"a_pipa"},
+      {"Id":11,"ParentId":1, "Name":"古筝","ListOrder":1,"Icon":"a_guzheng"},
+      {"Id":12,"ParentId":1, "Name":"二胡","ListOrder":1,"Icon":"a_erhu"},
+      {"Id":13,"ParentId":1, "Name":"笛子","ListOrder":1,"Icon":"a_dizi"},
+      {"Id":14,"ParentId":1, "Name":"古琴","ListOrder":1,"Icon":"a_guqin"},
+      {"Id":15,"ParentId":1, "Name":"扬琴","ListOrder":1,"Icon":"yangqin"},
+      {"Id":16,"ParentId":1, "Name":"葫芦丝","ListOrder":1,"Icon":"a_hulusi"},
+      {"Id":17,"ParentId":1, "Name":"打击乐","ListOrder":1,"Icon":"a_dajiyue"},
+      {"Id":18,"ParentId":1, "Name":"黑管","ListOrder":1,"Icon":"a_heiguan"},
+      {"Id":19,"ParentId":1, "Name":"双簧管","ListOrder":1,"Icon":"a_shuanghuangguan"},
+      {"Id":20,"ParentId":1, "Name":"贝斯","ListOrder":1,"Icon":"a_beisi"},
+      {"Id":21,"ParentId":1, "Name":"箫","ListOrder":1,"Icon":"a_xiao"},
+      {"Id":22,"ParentId":1, "Name":"埙","ListOrder":1,"Icon":"a_sun"},
+  
+      {"Id":23,"ParentId":0, "Name":"舞蹈","ListOrder":2,"Icon":""},
+      {"Id":24,"ParentId":23, "Name":"拉丁舞","ListOrder":1,"Icon":"b_"},
+      {"Id":25,"ParentId":23, "Name":"芭蕾舞","ListOrder":1,"Icon":"b_"},
+      {"Id":26,"ParentId":23, "Name":"国标舞","ListOrder":1,"Icon":"b_"},
+      {"Id":27,"ParentId":23, "Name":"街舞","ListOrder":1,"Icon":"b_"},
+      {"Id":28,"ParentId":23, "Name":"民族舞","ListOrder":1,"Icon":"b_"},
+      {"Id":29,"ParentId":23, "Name":"现代舞","ListOrder":1,"Icon":"b_"},
+      {"Id":30,"ParentId":23, "Name":"爵士舞","ListOrder":1,"Icon":"b_"},
+      {"Id":31,"ParentId":23, "Name":"钢管舞","ListOrder":1,"Icon":"b_"},
+      {"Id":32,"ParentId":23, "Name":"肚皮舞","ListOrder":1,"Icon":"b_"},
+      {"Id":33,"ParentId":23, "Name":"古典舞","ListOrder":1,"Icon":"b_"},
+  
+      {"Id":34,"ParentId":0, "Name":"绘画","ListOrder":4,"Icon":""},
+      {"Id":35,"ParentId":0, "Name":"K12教育","ListOrder":5,"Icon":""},
+      {"Id":36,"ParentId":0, "Name":"口才表演","ListOrder":6,"Icon":""},
+      {"Id":37,"ParentId":0, "Name":"书法棋类","ListOrder":7,"Icon":""},
+      {"Id":38,"ParentId":0, "Name":"武术强身","ListOrder":8,"Icon":""},
+  
+      {"Id":42,"ParentId":0, "Name":"球类","ListOrder":3,"Icon":""},
+      {"Id":43,"ParentId":42, "Name":"足球","ListOrder":3,"Icon":"g_zuqiu"},
+      {"Id":44,"ParentId":42, "Name":"篮球","ListOrder":3,"Icon":"g_lanqiu"},
+      {"Id":45,"ParentId":42, "Name":"羽毛球","ListOrder":3,"Icon":"g_yumaoqiu"},
+      {"Id":46,"ParentId":42, "Name":"网球","ListOrder":3,"Icon":"g_wangqiu"},
+      {"Id":47,"ParentId":42, "Name":"乒乓球","ListOrder":3,"Icon":"g_pingpangqiu"},
+      {"Id":48,"ParentId":42, "Name":"台球","ListOrder":3,"Icon":"g_taiqiu"},
+      {"Id":49,"ParentId":42, "Name":"排球","ListOrder":3,"Icon":"g_paiqiu"},
+      {"Id":50,"ParentId":42, "Name":"保龄球","ListOrder":3,"Icon":"g_baolingqiu"},
+      {"Id":51,"ParentId":42, "Name":"高尔夫球","ListOrder":3,"Icon":"g_gaoerfuqiu"},
+      {"Id":52,"ParentId":42, "Name":"滑冰","ListOrder":3,"Icon":"g_huabing"},
+  
+      {"Id":39,"ParentId":0, "Name":"瑜伽","ListOrder":9,"Icon":""},
+      {"Id":40,"ParentId":0, "Name":"早教","ListOrder":10,"Icon":""},
+      {"Id":41,"ParentId":0, "Name":"其他","ListOrder":11,"Icon":""}
+  ]
+  
+  }
+  
