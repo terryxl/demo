@@ -99,16 +99,18 @@
     {"Id":8,"ParentId":1, "Name":"架子鼓","ListOrder":1,"Icon":"a_jiazigu"},
     {"Id":9,"ParentId":1, "Name":"唢呐","ListOrder":1,"Icon":"a_suona"},
     {"Id":10,"ParentId":1, "Name":"琵琶","ListOrder":1,"Icon":"a_pipa"},
-    {"Id":11,"ParentId":1, "Name":"古筝","ListOrder":1,"Icon":"a_guzheng"},
-    {"Id":12,"ParentId":1, "Name":"二胡","ListOrder":1,"Icon":"a_erhu"},
-    {"Id":13,"ParentId":1, "Name":"笛子","ListOrder":1,"Icon":"a_dizi"},
-    {"Id":14,"ParentId":1, "Name":"古琴","ListOrder":1,"Icon":"a_guqin"},
 
     {"Id":23,"ParentId":0, "Name":"舞蹈","ListOrder":2,"Icon":""},
     {"Id":24,"ParentId":23, "Name":"拉丁舞","ListOrder":1,"Icon":"b_"},
     {"Id":25,"ParentId":23, "Name":"芭蕾舞","ListOrder":1,"Icon":"b_"},
     {"Id":26,"ParentId":23, "Name":"国标舞","ListOrder":1,"Icon":"b_"},
     {"Id":27,"ParentId":23, "Name":"街舞","ListOrder":1,"Icon":"b_"},
+
+    {"Id":34,"ParentId":0, "Name":"绘画","ListOrder":4,"Icon":""},
+      {"Id":35,"ParentId":0, "Name":"K12教育","ListOrder":5,"Icon":""},
+      {"Id":36,"ParentId":0, "Name":"口才表演","ListOrder":6,"Icon":""},
+      {"Id":37,"ParentId":0, "Name":"书法棋类","ListOrder":7,"Icon":""},
+      {"Id":38,"ParentId":0, "Name":"武术强身","ListOrder":8,"Icon":""},
 
     {"Id":42,"ParentId":0, "Name":"球类","ListOrder":3,"Icon":""},
     {"Id":43,"ParentId":42, "Name":"足球","ListOrder":3,"Icon":"g_zuqiu"},
