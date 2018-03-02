@@ -122,6 +122,9 @@
 
     {"Id":40,"ParentId":0, "Name":"早教","ListOrder":10,"Icon":""},
     {"Id":41,"ParentId":0, "Name":"其他","ListOrder":11,"Icon":""}
+],
+"CourseSearchHistory":[
+    "雅思口语","初中语文培训","儿童爵士舞"
 ]
 
 }
