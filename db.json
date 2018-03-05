@@ -125,6 +125,18 @@
 ],
 "CourseSearchHistory":[
     "雅思口语","初中语文培训","儿童爵士舞"
+],
+"Course":[
+    {"Id":1,"Title":"深入浅出 — 自然语言处理","CoverPicture":"mock_4","Address":"和平广场四楼","Price":100,"LatestPrice":100,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":2,"Title":"工作型PPT该这样做【年度黑马爆款","CoverPicture":"mock_1","Address":"高新万达3楼","Price":140,"LatestPrice":140,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":3,"Title":"Python全栈工程师","CoverPicture":"mock_2","Address":"青泥洼桥","Price":200,"LatestPrice":200,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":4,"Title":"【实战】Python与消息中间件","CoverPicture":"mock_3","Address":"华南广场附近","Price":160,"LatestPrice":160,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":5,"Title":"少儿英语培训","CoverPicture":"mock_1","Address":"西安路罗斯福","Price":1200,"LatestPrice":1200,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":6,"Title":"花仙子少儿舞蹈培训开课了","CoverPicture":"mock_4","Address":"北京街家乐福","Price":1300,"LatestPrice":1300,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":7,"Title":"播音主持专业培训","CoverPicture":"mock_2","Address":"北岗桥对面","Price":600,"LatestPrice":98,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":8,"Title":"摄影（影视摄影和美术摄影）专业","CoverPicture":"mock_1","Address":"宜家三楼","Price":400,"LatestPrice":98,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":9,"Title":"特色一对一辅导","CoverPicture":"mock_2","Address":"和平三楼","Price":2600,"LatestPrice":98,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false},
+    {"Id":10,"Title":"雅思培训辅导","CoverPicture":"mock_4","Address":"万达二楼","Price":500,"LatestPrice":98,"Hits":209,"Favorite":10,"BuyCount":100,"Remark":3,"IsFree":false}
 ]
 
 }
