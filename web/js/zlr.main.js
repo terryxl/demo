@@ -1,6 +1,24 @@
 ﻿var __currentCatId;
 
 $(document).ready(function () {
+    $('img').lazyload({
+        threshold: 100,
+        placeholder: "img/grey.gif",
+        effect: "slideDown",
+        effect_speed: 1000,
+        event: 'scroll',
+        data_attribute: 'original',
+        skip_invisible: true,
+        failure_limit: 2,
+        appear: function () {
+            $(this).attr('src');
+        },
+        load: function () {
+            $(this).attr('src');
+        }
+
+    });
+
     //初始化公众号，下载APP事件
     $(".dl").mouseover(function (e) { $(".dlcan").css("display","block"); });
     $(".dl").mouseout(function (e) { $(".dlcan").css("display", "none"); });
@@ -67,4 +85,18 @@ $(document).ready(function () {
         __currentCatId = 4;
         $(".catitem4").addClass("selected-li");
     });
+
+    //活动图片，鼠标移动显示覆盖详细描述层
+    $(".lingying-container1").hover(function () {
+        $(".lingying-hover1").stop().show().css({ "top": "90px" }).animate({ top: 0 }, 300);
+        }
+        , function () {
+            $(".lingying-hover1").stop().animate({ top: 90 }, 300);
+    });
+    $(".lingying-container2").hover(function () {
+        $(".lingying-hover2").stop().show().css({ "top": "90px" }).animate({ top: 0 }, 300);
+    }
+        , function () {
+            $(".lingying-hover2").stop().animate({ top: 90 }, 300);
+        });
 });

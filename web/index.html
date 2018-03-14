@@ -3,6 +3,7 @@
     <title></title>
     <link href="css/zlr.main.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
     <script src="js/zlr.main.js" type="text/javascript"></script>
 </head>
 <body>
@@ -521,10 +522,7 @@
     </div>
 
     <div class="clear"></div>
-    <div class="body pl10">
-        <div class="list-header">
-            <div class="list-title recommend">推荐课程</div>
-        </div>
+    <div class="body">
         <ul class="list-box">
             <li>
                 <div class="img-box">
@@ -588,9 +586,40 @@
             </li>
         </ul>
     </div>
-    
+    <div class="body">
+        <ul class="jigou-ul">
+            <li>
+                <a href="###"><img src="image/jg1.gif"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg2.png"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg1.gif"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg2.png"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg1.gif"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg2.png"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg1.gif"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg2.png"/></a>
+            </li>
+            <li>
+                <a href="###"><img src="image/jg1.gif"/></a>
+            </li>
+        </ul>
+    </div>
+
     <div class="clear"></div>
-    <div class="body pl10">
+    <div class="body">
         <div class="list-header">
             <div class="list-title">才艺兴趣</div>
             <div class="list-cat">
@@ -634,168 +663,253 @@
                 <a href="###" class="list-more-text">更多课程 >></a>
             </div>
         </div>
-        <ul class="list-box">
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
+        <div class="content-box">
+            <div class="left-box">
+                <ul class="list-box margin4">
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-box">
+                 <div class="box-header">
+                    最新合作机构
+                    <div class="box-header-more"><a href="###" class="list-more-text">更多>></a></div>
                 </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                <ul class="jigou-ul1">
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                     <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                    </ul>
+                <div class="right-news">
+                    <ul>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校顶顶顶顶顶</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                    </ul>
                 </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938</span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 
     <div class="clear"></div>
-    <div class="body pl10">
+    <div class="body">
         <div class="list-header">
             <div class="list-title">K12教育</div>
             <div class="list-cat">
@@ -829,169 +943,254 @@
                 <a href="###" class="list-more-text">更多课程 >></a>
             </div>
         </div>
-        <ul class="list-box">
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
+        <div class="content-box">
+            <div class="left-box">
+                <ul class="list-box margin4">
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://edu-image.nosdn.127.net/5A36E6370874550F5975CE035F89760C.png?imageView&thumbnail=223y124&quality=100">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a target="_blank" href="/classrooms/video/513">
+                                <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                        </div>
+                        <div class="intro">
+                            <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-box">
+                 <div class="box-header">
+                    最新合作机构
+                    <div class="box-header-more"><a href="###" class="list-more-text">更多>></a></div>
                 </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
+                <ul class="jigou-ul1">
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                     <li>
+                            <a href="###"><img src="image/jg2.png"/></a>
+                        </li>
+                        <li>
+                            <a href="###"><img src="image/jg1.gif"/></a>
+                        </li>
+                    </ul>
+                <div class="right-news">
+                    <ul>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校顶顶顶顶顶</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">美亚音乐</a></span><em>2017-02-08</em></li>
+                        <li><span><a href="###" target="_blank">大连美丽知音钢琴学校</a></span><em>2017-02-08</em></li>
+                    </ul>
                 </div>
-                <div class="intro">
-                    <span class="pull-left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-            <li>
-                <div class="img-box">
-                    <a target="_blank" href="/classrooms/video/513">
-                        <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                </div>
-                <div class="intro">
-                    <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 
     <div class="clear"></div>
-    <div class="body pl10">
-        <div class="list-header">
+    <div class="body">
+        <div class="list-header lingyig-header">
             <div class="list-title lingyig">冬夏令营</div>
             <div class="list-cat pl100 w880">
                 <ul class="lingyig-cat-ul">
@@ -1035,10 +1234,15 @@
             <div style="width:1000px">
                  <ul class="list-box">
                     <li>
-                        <div>
+                        <div class="hover-container lingying-container1">
                             <a target="_blank" href="/classrooms/video/513">
                                 <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="image/hd1.jpg">
                             </a>
+                            <div class="hover lingying-hover1">
+                                <div style="margin:6px;">2018-04-23  14天</div>
+                                <div style="text-align:center; margin:5px;">高考志愿填报利器高考志愿填报利器高考志愿填报利器</div>
+                                <div style="text-align:center;margin-top:20px;"><a href="###" style="color:#fff;border:solid 1px #fff; padding:3px 5px;font-size:12px;">查看详情</a></div>
+                            </div>
                         </div>
                         <div class="title">
                             <a href="/classrooms/video/513" target="_blank">上海亮剑节假日户外亲子3</a>
@@ -1170,8 +1374,8 @@
     </div>
 
     <div class="clear"></div>
-    <div class="body pl10">
-        <div class="list-header">
+    <div class="body">
+        <div class="list-header qinzi-header">
             <div class="list-title qinzi">亲子乐玩</div>
             <div class="list-cat pl100 w880">
                 <ul class="qinzi-cat-ul">
@@ -1204,10 +1408,15 @@
             <div style="width:1000px">
                  <ul class="list-box">
                     <li>
-                        <div>
+                        <div class="hover-container lingying-container2">
                             <a target="_blank" href="/classrooms/video/513">
                                 <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="image/hd1.jpg">
                             </a>
+                            <div class="hover-qinzi lingying-hover2">
+                                <div style="margin:6px;">2018-04-23  14天</div>
+                                <div style="text-align:center; margin:5px;">高考志愿填报利器高考志愿填报利器高考志愿填报利器</div>
+                                <div style="text-align:center;margin-top:20px;"><a href="###" style="color:#fff;border:solid 1px #fff; padding:3px 5px;font-size:12px;">查看详情</a></div>
+                            </div>
                         </div>
                         <div class="title">
                             <a href="/classrooms/video/513" target="_blank">上海亮剑节假日户外亲子3</a>
@@ -1339,7 +1548,59 @@
     </div>
 
     <div class="clear"></div>
-    <div class="body pl10">
+    <div class="body">
+        <div class="expert-avatar">
+            <ul>
+                <li class="bg-color-a">
+                    <div><img src="image/11.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13 brief"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称上课幽默等特点著称上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+                <li class="bg-color-b">
+                    <div><img src="image/12.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+                <li class="bg-color-c">
+                    <div><img src="image/13.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+                <li class="bg-color-d">
+                    <div><img src="image/14.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+                <li class="bg-color-e">
+                    <div><img src="image/11.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+                <li class="bg-color-f">
+                    <div><img src="image/12.jpg"/></div>
+                    <p class="expert-name">张楠</p>
+                    <p class="fz13"><span class="fw-bold">简介：</span>清华大学英语专业在读研究生，以知识广泛，上课幽默等特点著称！</p>
+                    <p class="mt10 fz13"><span class="fw-bold">擅长：</span>舞蹈 钢琴</p>
+                </li>
+            </ul>
+            <div class="expert-pager">
+                <div class="pager-item item-selected"></div>
+                <div class="pager-item"></div>
+                <div class="pager-item"></div>
+            </div>
+            <div class="list-more expert-more">
+                <a href="###" class="list-more-text">更多名师 >></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="body">
         <div class="list-header">
             <div class="list-title">教育资讯</div>
             <div class="list-cat"> </div>
@@ -1403,147 +1664,7 @@
     </div>
 
     <div class="clear"></div>
-    <div class="body muilt-col bg-color-clear h400">
-        <div class="left-box">
-            <ul class="list-box">
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a target="_blank" href="/classrooms/video/513">
-                            <img title="高考志愿填报利器" alt="高考志愿填报利器" class="cover" src="http://img1.youzy.cn/content2/thumbs/p00643446.jpeg">
-                        </a>
-                    </div>
-                    <div class="title">
-                        <a href="/classrooms/video/513" target="_blank">高考志愿填报利器</a>
-                    </div>
-                    <div class="intro">
-                        <span class="left">1课</span><span class="right"><img class="icon-view" src="image/view.png"/> 6938 </span>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="clear-vert"></div>
-        <div class="right-box">
-            <div class="box-header">
-                专家名师
-                <div class="box-header-more"><a href="###" class="list-more-text">更多>></a></div>
-            </div>
-            <div class="expert-avatar">
-                <ul>
-                    <li>
-                        <img src="image/e1.jpeg" />dddddddddddd
-                    </li>
-                    <li>
-                        <img src="image/e2.jpeg" />
-                    </li>
-                    <li>
-                        <img src="image/e1.jpeg" />
-                    </li>
-                    <li>
-                        <img src="image/e2.jpeg" />
-                    </li>
-                    <li>
-                        <img src="image/e1.jpeg" />
-                    </li>
-                    <li>
-                        <img src="image/e2.jpeg" />
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="clear"></div>
-    <div class="body pl10">
+    <div class="body">
         <ul class="oneline">
             <li><b>友情链接：</b></li>
             <li><a href="###">恒越教育</a></li>
